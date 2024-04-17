@@ -1,0 +1,316 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  text-decoration: none
+  border: none
+  outline: none
+  scroll-behavior: smooth
+
+html
+  font-size: 62.3%
+  overflow-x: hidden
+  ::-webkit-scrollbar-track
+    width: 0.8em
+
+  ::-webkit-scrollbar-tumb
+    background: #ffffff
+
+  ::-webkit-scrollbar-thumb
+    background: #7b4bb7
+
+body
+  background: #0c0016
+
+span
+  .text-multiple
+    color: #be92f8
+
+.header
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  padding: 2em 9%
+  background: #100025
+  filter: drop-shadow(0 0 0.75rem #dcc4fa)
+  display: flex
+  justify-content: space-between
+  align-content: center
+  z-index: 100
+
+.logo
+  font-size: 3rem
+  color: #fff
+  font-weight: 800
+  cursor: pointer
+  transition: 0.5 ease
+
+  ::heaver
+    transform: scale(1.1)
+
+.navbar
+  a
+    font-size: 1.8rem
+    color: #fff
+    margin-left: 4em
+    font-weight: 500
+    transition: 0.3 ease
+    border-bottom: 5px solid transparent
+  ::hover
+
+.navbar a.active
+  color: #ffffff
+  border-bottom: 3px solid
+
+@media (max-width:995px)
+  #menu-icon
+    display: block
+
+  .navbar
+    position: absolute
+    top: 100%
+    right: 0
+    width: 40%
+    border-left: 3px solid
+    border-bottom-left-radius: 2rem
+    padding: 1rem 3%
+    background-color: #fff
+    border-top: 0.1rem solid rgba(0,0,0,0.1)
+    display: none
+
+  .navbar a
+    display: block
+    font-size: 2rem
+    margin: 3rem 0
+
+  .navbar a:hover,
+  .navbar a.active
+    padding: 1rem
+    border-radius: 0.5rem solid
+
+section
+  min-height: 100vh
+  padding: 5rem 9% 5rem
+
+.home
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: 8rem
+  background: #1b01318e
+
+.home
+  .home-content
+    font-size: 4rem
+    font-weight: 700
+    line-height: 1.3
+    h3 h1
+    font-size: 4rem
+    margin-bottom: 1rem
+    font-weight: 700
+    color: #fff
+
+span
+  color: #fff
+
+.home-img
+  border-radius: 50%
+  img
+    position: relative
+    width: 32vw
+    border-radius: 50%
+    box-shadow: 0 0 25px
+    cursor: pointer
+
+    :hover
+      transform: scale(1.01)
+      filter: drop-shadow(0 0 25 px, #be92f8)
+
+.social-incon a
+  display: flex
+  margin: 8px
+  justify-content: center
+  align-items: center
+  width: 4rem
+  height: 4rem
+  background: transparent
+  border: 0.2rem solid #6f00ff
+  font-size: 2rem
+  border-radius: 50%
+  color: #fff
+  cursor: pointer
+
+  :hover
+    color: #fff
+    transform: scale(1.3)translateY(-5px)
+    background: c8b6ff
+    box-shadow: 0 0 50px #1942f7
+
+//container skills
+  .container_skills
+    justify-content: space-between
+
+.zoom-effect
+  :hover
+    transform: scale(1.3)translateY(-5px)
+
+.zoom-effect2
+  :hover
+    transform: scale(1.1)translateY(-5px)
+
+.id_skills
+  background-color: #1b01318e
+  filter: drop-shadow(0 0 1.75rem #6e03c5c0)
+
+.container
+  h1
+    display: flex
+    justify-content: center
+
+.content-skills img
+  width: 150px
+  margin-left: 8rem
+  margin-top: 2rem
+  vertical-align: middle
+  align-items: center
+  justify-content: center
+  padding: 0.5rem
+
+//Certification
+.content-BTS-CERTIF
+  background-color: white
+  border: 2px solid #400291
+  box-shadow: 0 0 15px #7645b3
+  width: 65%
+  margin: 0 auto
+  padding: 40px
+  display: flex
+
+.margin
+  margin-top: 60px
+
+.grid-certification
+  flex-grow: 1
+
+  & img
+    display: inline-flex
+    margin: 0 auto 10px
+    width: 150px
+    margin-right: 20px
+
+.text-right
+  margin-left: 60px
+  h1
+    font-size: 25px
+    color: red
+    width: 300px
+    display: flex
+    justify-content: center
+    text-align: center
+
+.text-right
+  p
+    margin: 2px
+    font-size: 20px
+
+.text-right
+  h3
+    margin-top: 50px
+    font-size: 25px
+    color: red
+    width: 300px
+    display: flex
+    justify-content: center
+    text-align: center
+
+.liens-color
+  color: #0d47a1
+  p
+    font-size: 20px
+  :hover
+    color: black
+
+.liens-color
+  p
+    margin-top: 25px
+    margin-left: 40px
+
+//Projets 
+.title
+  h1
+    margin-top: 32px
+    display: flex
+    justify-content: center
+    color: #fff
+    font-size: 7em
+
+.container-Entreprise
+  display: flex
+  background-color: #d4bcf1
+  border: 2px solid #400291
+  box-shadow: 0 0 15px #7645b3
+  width: 65%
+  margin: 0 auto
+  padding: 40px
+
+  img
+    display: inline-flex
+    align-items: center
+    justify-content: start
+    width: 400px
+
+  p
+    text-align: center
+    margin-left: 50px
+    font-size: 25px
+
+.container-Duree
+  display: flex
+  background-color: #d4bcf1
+  border: 2px solid #400291
+  box-shadow: 0 0 15px #7645b3
+  width: 70%
+  margin: 0 auto
+  padding: 40px
+  display: flex
+
+  img
+    width: 400px
+    align-self: flex-end
+    margin-top: auto
+
+  p
+    margin: 60px
+    text-align: center
+    margin-left: 50px
+    font-size: 25px
+
+.zoom-effect3
+  :hover
+    transform: scale(1.0)translateY(-1px)
+
+.container-project
+  display: flex
+  flex-direction: column
+  align-items: center
+  background-color: #d4bcf1
+  border: 2px solid #400291
+  box-shadow: 0 0 15px #7645b3
+  width: 75%
+  margin: 0 auto
+  padding: 40px
+
+  img
+    width: 800px
+    display: flex
+    margin-bottom: 20px
+
+.images-Excel
+  margin-top: 25px
+  display: flex
+
+  img
+    width: 100%
+
+// Pas d'idée de design
