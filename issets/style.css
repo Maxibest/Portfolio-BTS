@@ -140,7 +140,7 @@ span {
 }
 .home-img img {
   position: relative;
-  width: 20vw;
+  width: 32vw;
   border-radius: 50%;
   box-shadow: 0 0 25px;
   cursor: pointer;
@@ -331,8 +331,7 @@ span {
   color: black;
 }
 
-.content-BTS-PROJETS {
-  margin-top: 15%;
+.content-bts-experience {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
   justify-content: center;
@@ -340,12 +339,18 @@ span {
   padding: 20px;
 }
 
-.container-projet img {
-  margin-left: 100px;
-  width: 20%;
-  box-shadow: 12px 12px 2px 1px rgba(102, 102, 219, 0.2);
-  transition: transform 0.3s ease;
+.container-projet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
 }
-.container-projet img:hover {
-  transform: scale(1.1) translateY(-1px);
+.container-projet img {
+  width: 150px;
+  height: auto;
+}
+.container-projet :hover {
+  transform: scale(1.1) translateY(-5px);
 }/*# sourceMappingURL=style.css.map */

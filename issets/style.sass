@@ -310,18 +310,22 @@ span
     color: black
 
 .content-BTS-PROJETS
-  margin-top: 15%
   display: grid
   grid-template-columns: repeat(auto-fit, minmax(305px, 1fr))
   justify-content: center
   gap: 20px
   padding: 20px
 
-.container-projet
-  img
-    margin-left: 100px
-    width: 20%
-    box-shadow: 12px 12px 2px 1px rgba(102, 102, 219, 0.2)
-    transition: transform 0.3s ease
-    &:hover
-      transform: scale(1.1) translateY(-1px)
+.container-projet 
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 100%
+  max-width: 600px 
+  margin: auto
+  img 
+    width: 150px
+    height: auto
+    
+  :hover
+    transform: scale(1.1)translateY(-5px)
