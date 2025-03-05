@@ -25,6 +25,7 @@ html ::-webkit-scrollbar-thumb {
 body {
   background: #0c0016;
   scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 span .text-multiple {
@@ -41,7 +42,7 @@ span .text-multiple {
   filter: drop-shadow(0 0 0.75rem #dcc4fa);
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   z-index: 100;
 }
 
@@ -331,7 +332,7 @@ span {
   color: black;
 }
 
-.content-bts-experience {
+.content-BTS-PROJETS {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
   justify-content: center;
@@ -346,6 +347,7 @@ span {
   width: 100%;
   max-width: 600px;
   margin: auto;
+  margin-top: 15%;
 }
 .container-projet img {
   width: 150px;
@@ -353,4 +355,51 @@ span {
 }
 .container-projet :hover {
   transform: scale(1.1) translateY(-5px);
+}
+
+/* Dotnet.html */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+.title h1 {
+  font-size: 3.5rem;
+  color: #007bff;
+}
+
+.container-project {
+  display: flex;
+  flex-direction: row;
+  gap: 155px;
+  margin-top: 30px;
+  margin-top: 50px;
+}
+.container-project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.container-project p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+.container-project .title-project {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.container-project a {
+  color: #007bff;
+  text-decoration: none;
+}
+.container-project a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
