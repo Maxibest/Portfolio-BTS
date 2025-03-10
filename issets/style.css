@@ -374,11 +374,13 @@ span {
 
 .container-project {
   background: #1b0a30;
+  padding: 50px;
   border-radius: 50px;
   display: flex;
   flex-direction: row;
   gap: 155px;
   margin-top: 30px;
+  filter: drop-shadow(0 0 1.75rem rgba(110, 3, 197, 0.7529411765));
   margin-top: 50px;
 }
 .container-project img {
@@ -407,25 +409,51 @@ span {
 }
 
 .container__skills {
+  display: grid;
   margin-top: 45px;
-  grid-column: 2;
-  width: 40%;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-projects {
   font-size: 15px;
+  margin: 15px;
   background: #fff;
   padding: 10px;
   border-radius: 15px;
+}
+.skills-projects p {
+  margin: 5px;
 }
 .skills-projects h1 {
   font-size: 18px;
 }
 
 .container_skills_footer {
-  margin-top: 50px;
+  display: flex;
+  margin-top: 45px;
+  justify-content: center;
+  align-items: center;
 }
-.container_skills_footer i {
-  color: red;
+
+.pdf-block {
+  background-color: red;
+  max-width: 67%;
   cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px;
+  transition: transform 0.3 ease;
+}
+.pdf-block h1 {
+  color: #fff;
+  text-align: center;
+}
+.pdf-block:hover {
+  transform: scale(1.2);
+}
+
+.pdf {
+  font-size: 40px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

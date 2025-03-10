@@ -333,8 +333,8 @@ span
   :hover
     transform: scale(1.1)translateY(-5px)
 
-/* Dotnet.html */
 
+/* Dotnet.html */
 .container
   max-width: 1200px
   margin: 0 auto
@@ -348,11 +348,13 @@ span
 
 .container-project
   background: #1b0a30
+  padding: 50px
   border-radius: 50px
   display: flex
   flex-direction: row
   gap: 155px
   margin-top: 30px
+  filter: drop-shadow(0 0 1.75rem rgba(110, 3, 197, 0.7529411765))
 
   img
     max-width: 100%
@@ -379,24 +381,56 @@ span
     &:hover
       text-decoration: underline
 
-
 .container__skills 
+  display: grid
   margin-top: 45px
-  grid-column: 2
-  width: 40%
+  justify-content: center
+  align-items: center
 
 .skills-projects
   font-size: 15px
+  margin: 15px
   background: #fff
   padding: 10px
   border-radius: 15px
-
+  p
+    margin: 5px
   h1
     font-size: 18px
 
 
+
 .container_skills_footer 
-  margin-top: 50px
-  i
-    color: red
-    cursor: pointer
+  display: flex
+  margin-top: 45px
+  justify-content: center
+  align-items: center
+
+
+.pdf-block 
+  background-color: red
+  max-width: 67%
+  cursor: pointer
+  padding: 15px
+  border-radius: 8px
+  margin: 15px
+  transition: transform 0.3 ease
+  h1
+    color: #fff
+    text-align: center
+  &:hover
+    transform: scale(1.2)
+
+
+.pdf 
+  font-size: 40px
+  color: white
+
+
+
+
+
+  
+
+  
+
