@@ -228,7 +228,7 @@ span {
   margin-left: 60px;
 }
 .text-right h1 {
-  font-size: 25px;
+  font-size: 23px;
   color: red;
   width: 300px;
   display: flex;
@@ -373,6 +373,8 @@ span {
 }
 
 .container-project {
+  background: #1b0a30;
+  border-radius: 50px;
   display: flex;
   flex-direction: row;
   gap: 155px;
@@ -402,4 +404,28 @@ span {
 }
 .container-project a:hover {
   text-decoration: underline;
+}
+
+.container__skills {
+  margin-top: 45px;
+  grid-column: 2;
+  width: 40%;
+}
+
+.skills-projects {
+  font-size: 15px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 15px;
+}
+.skills-projects h1 {
+  font-size: 18px;
+}
+
+.container_skills_footer {
+  margin-top: 50px;
+}
+.container_skills_footer i {
+  color: red;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
