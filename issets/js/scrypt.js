@@ -5,3 +5,5 @@ let moove = new Typed(".text-multiple", {
   backDelay: 1000,
   loop: true,
 });
+
+
