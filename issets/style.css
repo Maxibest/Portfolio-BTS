@@ -243,7 +243,7 @@ span {
 
 .text-right h3 {
   margin-top: 50px;
-  font-size: 25px;
+  font-size: 20px;
   color: red;
   width: 300px;
   display: flex;
@@ -430,6 +430,12 @@ span {
   font-size: 18px;
 }
 
+.blue {
+  color: #9000d3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .container_skills_footer {
   display: flex;
   margin-top: 45px;
@@ -442,7 +448,7 @@ span {
 
 .pdf-block {
   background-color: red;
-  width: 250px;
+  width: 140px;
   cursor: pointer;
   padding: 15px;
   border-radius: 8px;
