@@ -481,6 +481,7 @@ span {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   gap: 10px;
+  height: auto;
 }
 .image-container .slide {
   width: 45%;
@@ -488,4 +489,8 @@ span {
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 10px;
+}
+
+.container-img-projects img {
+  width: 40%;
 }/*# sourceMappingURL=style.css.map */
