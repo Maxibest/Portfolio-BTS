@@ -1,0 +1,41 @@
+C:
+├───GSBCampagneGUI
+│   FrmAccueil.cs
+│   FrmAccueil.Designer.cs
+│   FrmAccueil.resx
+│   FrmAjouterEvenement.cs
+│   FrmAjouterEvenement.Designer.cs
+│   FrmAjouterEvenement.resx
+│   FrmAuthentification.resx
+│   FrmConsulterEvenement.cs
+│   FrmConsulterEvenement.Designer.cs
+│   FrmConsulterEvenement.resx
+│   FrmGererEvenement.cs
+│   FrmGererEvenement.Designer.cs
+│   FrmGererEvenement.resx
+│   FrmMenuEvenements.cs
+│   FrmMenuEvenements.Designer.cs
+│   FrmMenuEvenements.resx
+│   Program.cs
+│   
+├───GSBCampagneBLL
+│   ArtisteManager.cs
+│   CampagneManager.cs
+│   CategorieVipManager.cs
+│   EvenementManager.cs
+│   SessionUtilisateur.cs
+│   ThemeManager.cs
+│   
+├───GSBCampagneBLL
+│   Evenement.cs
+│   EvenementDAO.cs
+│   EvenementExt.cs
+│   Salarie.cs
+│   SalarieDAO.cs
+│   sysdiagram.cs
+│   Theme.cs
+│   ThemeDAO.cs
+│   Ville.cs
+│   VilleDAO.cs
+│   VIP.cs
+│   VipDAO.cs

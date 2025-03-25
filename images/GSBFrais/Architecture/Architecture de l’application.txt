@@ -1,0 +1,52 @@
+C:
+│   index.php
+├───gsbfrais
+│   │   index.php
+│   │
+│   ├───controllers
+│   │       AccueilController.php
+│   │       Controller.php
+│   │       FicheFraisController.php
+│   │       FraisForfaitController.php
+│   │       FraisHorsForfaitController.php
+│   │       IndicateursController.php
+│   │       UtilisateurController.php
+│   │
+│   ├───models
+│   │       CategorieManager.php
+│   │       FicheFraisManager.php
+│   │       FraisForfaitManager.php
+│   │       FraisHorsForfaitManager.php
+│   │       IndicateursManager.php
+│   │       ProfilManager.php
+│   │       RegionManager.php
+│   │       UtilisateurManager.php
+│   │
+│   └───views
+│       │   template.php
+│       │
+│       ├───accueil
+│       │       accueil.php
+│       │
+│       ├───ficheFrais
+│       │       clotureFichesFrais.php
+│       │       detailFicheFrais.php
+│       │       detailFicheFraisVM.php
+│       │
+│       ├───fraisForfait
+│       │       ajouter.php
+│       │       gestionFraisForfait.php
+│       │
+│       ├───fraisHorsForfait
+│       │       gestionFraisHorsForfait.php
+│       │
+│       ├───indicateurs
+│       │       indicateursComptable.php
+│       │       indicateursDelegue.php
+│       │       indicateursVisiteursMedicaux.php
+│       │
+│       └───utilisateur
+│               ajoutUtilisateur.php
+│               changerMotPasse.php
+│               connexion.php
+│  
