@@ -1,0 +1,94 @@
+C:
+│   index.php
+├───assets
+│   ├───css
+│   │       bulma.css.map
+│   │       bulma.min.css
+│   │
+│   └───images
+│           favicon.png
+├───gsbfrais
+│   │   .htaccess
+│   │   autoloader.php
+│   │   index.php
+│   │
+│   ├───assets
+│   │   ├───css
+│   │   │       bootswatch_slate.min.css
+│   │   │       bulma.css.map
+│   │   │       bulma.min.css
+│   │   │       gsb.css
+│   │   │
+│   │   └───images
+│   │           bg-gsb.jpg
+│   │           favicon.svg
+│   │           logo.png
+│   │
+│   ├───config
+│   │       config.php
+│   │
+│   ├───controllers
+│   │       AccueilController.php
+│   │       Controller.php
+│   │       FicheFraisController.php
+│   │       FraisForfaitController.php
+│   │       FraisHorsForfaitController.php
+│   │       IndicateursController.php
+│   │       UtilisateurController.php
+│   │
+│   ├───includes
+│   │       fonctions.php
+│   │
+│   ├───models
+│   │       CategorieManager.php
+│   │       FicheFraisManager.php
+│   │       FraisForfaitManager.php
+│   │       FraisHorsForfaitManager.php
+│   │       IndicateursManager.php
+│   │       Model.php
+│   │       MonPDO.php
+│   │       ProfilManager.php
+│   │       RegionManager.php
+│   │       UtilisateurManager.php
+│   │
+│   └───views
+│       │   template.php
+│       │   vue-erreurs.php
+│       │
+│       ├───accueil
+│       │       accueil.php
+│       │
+│       ├───ficheFrais
+│       │       clotureFichesFrais.php
+│       │       detailFicheFrais.php
+│       │       detailFicheFraisVM.php
+│       │       listeFichesFraisEnAttenteValidation.php
+│       │       listeFichesFraisRegion.php
+│       │       validationFicheFrais.php
+│       │
+│       ├───fraisForfait
+│       │       ajouter.php
+│       │       gestionFraisForfait.php
+│       │
+│       ├───fraisHorsForfait
+│       │       gestionFraisHorsForfait.php
+│       │
+│       ├───indicateurs
+│       │       indicateursComptable.php
+│       │       indicateursDelegue.php
+│       │       indicateursVisiteursMedicaux.php
+│       │
+│       └───utilisateur
+│               ajoutUtilisateur.php
+│               changerMotPasse.php
+│               connexion.php
+│               gestionUtilisateur.php
+│               modifierUtilisateur.php
+│
+└───utilitaires
+    │   createBdd.php
+    │   genData.php
+    │   phpinfo.php
+    │
+    └───include
+            fct.inc.php
