@@ -1,94 +1,157 @@
-C:
-│   index.php
-├───assets
-│   ├───css
-│   │       bulma.css.map
-│   │       bulma.min.css
-│   │
-│   └───images
-│           favicon.png
-├───gsbfrais
-│   │   .htaccess
-│   │   autoloader.php
-│   │   index.php
-│   │
-│   ├───assets
-│   │   ├───css
-│   │   │       bootswatch_slate.min.css
-│   │   │       bulma.css.map
-│   │   │       bulma.min.css
-│   │   │       gsb.css
-│   │   │
-│   │   └───images
-│   │           bg-gsb.jpg
-│   │           favicon.svg
-│   │           logo.png
-│   │
-│   ├───config
-│   │       config.php
-│   │
-│   ├───controllers
-│   │       AccueilController.php
-│   │       Controller.php
-│   │       FicheFraisController.php
-│   │       FraisForfaitController.php
-│   │       FraisHorsForfaitController.php
-│   │       IndicateursController.php
-│   │       UtilisateurController.php
-│   │
-│   ├───includes
-│   │       fonctions.php
-│   │
-│   ├───models
-│   │       CategorieManager.php
-│   │       FicheFraisManager.php
-│   │       FraisForfaitManager.php
-│   │       FraisHorsForfaitManager.php
-│   │       IndicateursManager.php
-│   │       Model.php
-│   │       MonPDO.php
-│   │       ProfilManager.php
-│   │       RegionManager.php
-│   │       UtilisateurManager.php
-│   │
-│   └───views
-│       │   template.php
-│       │   vue-erreurs.php
-│       │
-│       ├───accueil
-│       │       accueil.php
-│       │
-│       ├───ficheFrais
-│       │       clotureFichesFrais.php
-│       │       detailFicheFrais.php
-│       │       detailFicheFraisVM.php
-│       │       listeFichesFraisEnAttenteValidation.php
-│       │       listeFichesFraisRegion.php
-│       │       validationFicheFrais.php
-│       │
-│       ├───fraisForfait
-│       │       ajouter.php
-│       │       gestionFraisForfait.php
-│       │
-│       ├───fraisHorsForfait
-│       │       gestionFraisHorsForfait.php
-│       │
-│       ├───indicateurs
-│       │       indicateursComptable.php
-│       │       indicateursDelegue.php
-│       │       indicateursVisiteursMedicaux.php
-│       │
-│       └───utilisateur
-│               ajoutUtilisateur.php
-│               changerMotPasse.php
-│               connexion.php
-│               gestionUtilisateur.php
-│               modifierUtilisateur.php
-│
-└───utilitaires
-    │   createBdd.php
-    │   genData.php
-    │   phpinfo.php
-    │
-    └───include
-            fct.inc.php
+C:\USERS\GONTHIERY\DESKTOP\CCF\GSBCAMPAGNE\GSBCAMPAGNEGUI
+│   App.config
+│   FrmAccueil.cs
+│   FrmAccueil.Designer.cs
+│   FrmAccueil.resx
+│   FrmAfficherCampagnes.cs
+│   FrmAfficherCampagnes.Designer.cs
+│   FrmAfficherCampagnes.resx
+│   FrmAfficherCategorieVIP.cs
+│   FrmAfficherCategorieVIP.Designer.cs
+│   FrmAfficherCategorieVIP.resx
+│   FrmAjoutArtiste.cs
+│   FrmAjoutArtiste.Designer.cs
+│   FrmAjoutArtiste.resx
+│   FrmAjouterAgences.cs
+│   FrmAjouterAgences.Designer.cs
+│   FrmAjouterAgences.resx
+│   FrmAjouterCampagnes.cs
+│   FrmAjouterCampagnes.Designer.cs
+│   FrmAjouterCampagnes.resx
+│   FrmAjouterCategorieVIP.cs
+│   FrmAjouterCategorieVIP.Designer.cs
+│   FrmAjouterCategorieVIP.resx
+│   FrmAjouterCourantArtiste.cs
+│   FrmAjouterCourantArtiste.Designer.cs
+│   FrmAjouterCourantArtiste.resx
+│   FrmAjouterEvenement.cs
+│   FrmAjouterEvenement.Designer.cs
+│   FrmAjouterEvenement.resx
+│   FrmAjoutVip.cs
+│   FrmAjoutVip.Designer.cs
+│   FrmAjoutVip.resx
+│   FrmAuthentification.cs
+│   FrmAuthentification.Designer.cs
+│   FrmAuthentification.resx
+│   FrmConsulterEvenement.cs
+│   FrmConsulterEvenement.Designer.cs
+│   FrmConsulterEvenement.resx
+│   FrmGererAgences.cs
+│   FrmGererAgences.Designer.cs
+│   FrmGererAgences.resx
+│   FrmGererCampagnes.cs
+│   FrmGererCampagnes.Designer.cs
+│   FrmGererCampagnes.resx
+│   FrmGererCategorieVIP.cs
+│   FrmGererCategorieVIP.Designer.cs
+│   FrmGererCategorieVIP.resx
+│   FrmGererEvenement.cs
+│   FrmGererEvenement.Designer.cs
+│   FrmGererEvenement.resx
+│   FrmGestionCampagnes.cs
+│   FrmGestionCampagnes.Designer.cs
+│   FrmGestionCampagnes.resx
+│   FrmGestionCategorieVIP.cs
+│   FrmGestionCategorieVIP.Designer.cs
+│   FrmGestionCategorieVIP.resx
+│   FrmListeAgences.cs
+│   FrmListeAgences.Designer.cs
+│   FrmListeAgences.resx
+│   FrmListeArtiste.cs
+│   FrmListeArtiste.Designer.cs
+│   FrmListeArtiste.resx
+│   FrmListeCourantArtistes.cs
+│   FrmListeCourantArtistes.Designer.cs
+│   FrmListeCourantArtistes.resx
+│   FrmListeVip.cs
+│   FrmListeVip.Designer.cs
+│   FrmListeVip.resx
+│   FrmMenuAgences.cs
+│   FrmMenuAgences.Designer.cs
+│   FrmMenuAgences.resx
+│   FrmMenuArtiste.cs
+│   FrmMenuArtiste.Designer.cs
+│   FrmMenuArtiste.resx
+│   FrmMenuCourantArtistes.cs
+│   FrmMenuCourantArtistes.Designer.cs
+│   FrmMenuCourantArtistes.resx
+│   FrmMenuEvenements.cs
+│   FrmMenuEvenements.Designer.cs
+│   FrmMenuEvenements.resx
+│   FrmMenuVip.cs
+│   FrmMenuVip.Designer.cs
+│   FrmMenuVip.resx
+│   FrmModifSuppArtiste.cs
+│   FrmModifSuppArtiste.Designer.cs
+│   FrmModifSuppArtiste.resx
+│   FrmModifSuppVIP.cs
+│   FrmModifSuppVIP.Designer.cs
+│   FrmModifSuppVIP.resx
+│   FrmSupprimerCourantArtistique.cs
+│   FrmSupprimerCourantArtistique.Designer.cs
+│   FrmSupprimerCourantArtistique.resx
+
+
+C:\USERS\GONTHIERY\DESKTOP\CCF\GSBCAMPAGNE\GSBCAMPAGNEBLL
+│   AgenceManager.cs
+│   ArtisteManager.cs
+│   CampagneManager.cs
+│   CategorieManager.cs
+│   CategorieVipManager.cs
+│   CourantArtistiqueManager.cs
+│   EvenementManager.cs
+│   GsbCampagneBLL.csproj
+│   packages.config
+│   SalarieManager.cs
+│   SessionUtilisateur.cs
+│   ThemeManager.cs
+│   TypePublicManager.cs
+│   VilleManager.cs
+│   VipManager.cs
+
+
+Le numéro de série du volume est 00000018 3E26:6449
+C:\USERS\GONTHIERY\DESKTOP\CCF\GSBCAMPAGNE\GSBCAMPAGNEDAL
+│   Agence.cs
+│   AgenceDAO.cs
+│   AgenceExt.cs
+│   App.config
+│   Artiste.cs
+│   ArtisteDAO.cs
+│   ArtisteExt.cs
+│   Campagne.cs
+│   CampagneDAO.cs
+│   CampagneExt.cs
+│   CampagnesModel.Context.cs
+│   CampagnesModel.Context.tt
+│   CampagnesModel.cs
+│   CampagnesModel.Designer.cs
+│   CampagnesModel.edmx
+│   CampagnesModel.edmx.diagram
+│   CampagnesModel.tt
+│   CategorieDAO.cs
+│   CategorieVIP.cs
+│   CategorieVipDAO.cs
+│   Convier.cs
+│   CourantArtistique.cs
+│   CourantArtistiqueDAO.cs
+│   Evenement.cs
+│   EvenementDAO.cs
+│   EvenementExt.cs
+│   GsbCampagneDAL.csproj
+│   JournalIntervention.cs
+│   packages.config
+│   Participer.cs
+│   Role.cs
+│   Salarie.cs
+│   SalarieDAO.cs
+│   sysdiagram.cs
+│   Theme.cs
+│   ThemeDAO.cs
+│   TypePublic.cs
+│   TypePublicDAO.cs
+│   Ville.cs
+│   VilleDAO.cs
+│   VIP.cs
+│   VipDAO.cs
+│   VipExt.cs
