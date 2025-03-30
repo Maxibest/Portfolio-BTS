@@ -172,10 +172,16 @@ span {
   box-shadow: 0 0 50px #1942f7;
 }
 
+.zoom-effect img {
+  transition: transform 0.3s ease;
+}
 .zoom-effect :hover {
   transform: scale(1.3) translateY(-5px);
 }
 
+.zoom-effect2 img {
+  transition: transform 0.3s ease;
+}
 .zoom-effect2 :hover {
   transform: scale(1.1) translateY(-5px);
 }
@@ -341,17 +347,20 @@ span {
 }
 
 .container-projet {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   align-items: center;
   width: 100%;
   max-width: 600px;
   margin: auto;
   margin-top: 15%;
+  gap: 15%;
 }
 .container-projet img {
   width: 150px;
   height: auto;
+  transition: transform 0.3s ease;
 }
 .container-projet :hover {
   transform: scale(1.1) translateY(-5px);
