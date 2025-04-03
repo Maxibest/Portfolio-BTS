@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="icon/icone-formation-accueil-service-hover-01.webp"
+    />
+    <title>Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/style.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="icon" href="icon/icone-formation-accueil-service-hover-01.webp">
-  <title>Portfolio</title>
-</head>
+  <header class="header">
+    <nav class="header">
+      <a href="index.html" class="logo">Yohann</a>
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Projets.html">Projets-BTS</a>
+        <a href="#">Milieu professionnel</a>
+        <a href="BTS-SIO.html">Certification</a>
+      </ul>
+    </nav>
+  </header>
 
-<header class="header">
-  <a href="index.html" class="logo">Yohann</a>
+  <body>
+    <section class="content-bts-experience" id="content-bts-experience">
+      <div class="container-projet">
+        <a href="assets/PDF/Rapport de Stage YG SIO1.docx.pdf">
+          <img src="images/UPJV.png" alt="" />
+        </a>
 
-  <nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="Projets.html">Projets-BTS</a>
-    <a href="#">Milieu professionnel</a>
-    <a href="BTS-SIO.html">Certification</a>
+        <a href="assets/PDF/Rapport de Stage YG SIO2.pdf">
+          <img src="images/XPILAB-image.png" alt="" />
+        </a>
+      </div>
+    </section>
 
-
-  </nav>
-</header>
-
-<body>
-  <section class="content-bts-experience" id="content-bts-experience">
-    <div class="container-projet">
-      <a href="assets/PDF/Rapport de Stage YG SIO1.docx.pdf">
-        <img src="images/UPJV.png" alt="">
-      </a>
-        
-      <a href="assets/PDF/Rapport de Stage YG SIO2.pdf">
-        <img src="images/XPILAB-image.png" alt="">
-      </a>
-    </div> 
-  </section>
-</body>
-
+    <script src="assets/js/navbar.js"></script>
+  </body>
 </html>
