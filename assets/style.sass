@@ -475,3 +475,154 @@ span
     width: 110%
     border-radius: 5px
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+
+/* responsive */
+@media (min-width: 400px) and (max-width: 720px)
+  .home
+    gap: 2rem
+
+  .home-img
+    width: 39vw
+
+  .home-content
+    h1
+      font-size: 2.5rem
+
+    span
+      font-size: 2.5rem
+
+    .blue
+      font-size: 12px
+
+  .social-incon
+    justify-content: center
+    align-items: center
+
+  .navbar
+    display: none
+    flex-direction: column
+    position: absolute
+    top: 77px
+    left: 0
+    width: 100%
+    background: rgba(76, 0, 148, 0.5) // Couleur de fond semi-transparente
+    padding: 1rem 0
+    z-index: 1000
+    opacity: 0
+    transform: translateY(-20px)
+    transition: opacity 0.3s ease, transform 0.3s ease // Correction des transitions
+
+    a
+      margin: 1rem 0 // Correction de la marge
+      text-align: center
+      color: #fff
+      font-size: 1.8rem
+
+  .navbar-active
+    display: flex
+    opacity: 1
+    transform: translateY(0) // Remet à la position d'origine
+    transition: opacity 0.3s ease, transform 0.3s ease
+
+  .burger
+    display: flex
+    flex-direction: column
+    cursor: pointer
+    margin-right: 2em
+
+    div
+      width: 30px
+      height: 3px
+      background: #fff
+      margin: 5px
+      transition: background 0.3s ease, transform 0.3s ease // Transitions pour les barres du burger
+
+  .burger.active div:nth-child(1)
+    transform: rotate(45deg) translateY(8px) // Rotation de la première barre
+
+  .burger.active div:nth-child(2)
+    opacity: 0 // Masquer la barre du milieu
+
+  .burger.active div:nth-child(3)
+    transform: rotate(-45deg) translateY(-8px) // Rotation de la troisième barre
+
+  section
+    min-height: 100vh
+    padding: 5rem 9% 5rem
+  .home
+    gap: 2rem
+
+  .home-img
+    width: 39vw
+
+  .home-content
+    h1
+      font-size: 2.5rem
+
+    span
+      font-size: 2.5rem
+
+    .blue
+      font-size: 12px
+
+  .social-incon
+    justify-content: center
+    align-items: center
+
+  .navbar
+    display: none
+    flex-direction: column
+    position: absolute
+    top: 77px
+    left: 0
+    width: 100%
+    background: #4c00942a
+    padding: 1rem 0
+    z-index: 1000
+    opacity: 0
+    transform: translateY(-20px)
+    transition: opacity 0.3s ease,
+
+    a
+      margin-bottom: 1rem 0
+      margin: 1rem 0
+      text-align: center
+      color: #fff
+      font-size: 1.8rem
+
+  .navbar-active
+    display: flex
+    opacity: 1
+    transform: translateY(0) // Remet à la position d'origine
+    transition: opacity 0.3s ease, transform 0.3s ease
+
+  .burger
+    display: flex
+    flex-direction: column
+    cursor: pointer
+    margin-right: 2em
+
+    div
+      width: 30px
+      height: 3px
+      background: #fff
+      margin: 5px
+
+  .burger.active div:nth-child(1)
+    transform: rotate(45deg) translateY(8px)
+
+  .burger.active div:nth-child(2)
+    opacity: 0
+
+  .burger.active div:nth-child(3)
+    transform: rotate(-45deg) translateY(-8px)
+
+  section
+    min-height: 100vh
+    padding: 5rem 9% 5rem
+
+  .container-projet 
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    img
+      margin-top: 50px
