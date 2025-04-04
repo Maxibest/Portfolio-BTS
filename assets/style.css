@@ -522,7 +522,30 @@ span {
 }
 
 /* responsive */
-@media (min-width: 400px) and (max-width: 720px) {
+@media (min-width: 100px) and (max-width: 400px) {
+  .home {
+    gap: 2rem;
+  }
+  .home-img {
+    width: 39vw;
+  }
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
+  .home-content span {
+    font-size: 2.5rem;
+  }
+  .home-content .blue {
+    font-size: 12px;
+  }
+  .social-incon {
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+  }
   .home {
     gap: 2rem;
   }
@@ -549,14 +572,15 @@ span {
     top: 77px;
     left: 0;
     width: 100%;
-    background: rgba(76, 0, 148, 0.5);
+    background: rgba(76, 0, 148, 0.1647058824);
     padding: 1rem 0;
     z-index: 1000;
     opacity: 0;
     transform: translateY(-20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition: opacity 0.3s ease;
   }
   .navbar a {
+    margin-bottom: 1rem 0;
     margin: 1rem 0;
     text-align: center;
     color: #fff;
@@ -579,7 +603,6 @@ span {
     height: 3px;
     background: #fff;
     margin: 5px;
-    transition: background 0.3s ease, transform 0.3s ease;
   }
   .burger.active div:nth-child(1) {
     transform: rotate(45deg) translateY(8px);
@@ -589,6 +612,38 @@ span {
   }
   .burger.active div:nth-child(3) {
     transform: rotate(-45deg) translateY(-8px);
+  }
+  section {
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+  }
+  .container-projet {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container-projet img {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 400px) and (max-width: 720px) {
+  .home {
+    gap: 2rem;
+  }
+  .home-img {
+    width: 39vw;
+  }
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
+  .home-content span {
+    font-size: 2.5rem;
+  }
+  .home-content .blue {
+    font-size: 12px;
+  }
+  .social-incon {
+    justify-content: center;
+    align-items: center;
   }
   section {
     min-height: 100vh;
