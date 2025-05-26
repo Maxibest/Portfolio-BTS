@@ -216,7 +216,6 @@ span
     margin-right: 20px
 
 .text-right
-  margin-left: 60px
   h1
     font-size: 23px
     color: red
@@ -581,7 +580,8 @@ span
     img
       margin-top: 50px
 
-
+  
+  /* responsive */
 @media (min-width: 400px) and (max-width: 720px)
   .home
     gap: 2rem
@@ -684,4 +684,77 @@ span
     img
       margin-top: 50px
 
+  /* Page Certification */
+  .content-BTS-CERTIF img
+    display: none
+
+  .text-right p, h1 
+    margin-left: 0px
+
+/* Responsive styles for BTS-SIO page */
+@media (max-width: 992px)
+  .content-BTS-CERTIF
+    width: 85%
+    padding: 25px
+  
+  .text-right
+    h1, h3
+      width: 100%
+
+@media (max-width: 768px)
+  .content-BTS-CERTIF
+    width: 90%
+    padding: 20px
+    flex-direction: column
+    
+  .grid-certification
+    display: flex
+    justify-content: center
+    margin-bottom: 20px
+    
+    img
+      display: inline-block
+      width: 100px
+      margin: 0 10px
+
+  .text-right
+    h1, h3
+      width: 100%
+      text-align: center
+    
+    p
+      font-size: 18px
+      text-align: center
+    
+    .liens-color p
+      margin-left: 0
+      text-align: center
+
+  .container-BTS
+    padding: 7rem 2rem 2rem
+    width: 100%
+
+@media (max-width: 480px)
+  .content-BTS-CERTIF
+    width: 95%
+    padding: 15px
+  
+  .grid-certification img
+    width: 80px
+  
+  .text-right
+    p
+      font-size: 16px
+    
+    h1
+      font-size: 20px
+    
+    h3
+      font-size: 18px
+    
+    ul
+      padding-left: 20px
+      
+  .margin
+    margin-top: 80px
 
